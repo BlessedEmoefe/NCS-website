@@ -1,0 +1,357 @@
+body {
+  width: 100%;
+
+  background-color: azure;
+}
+.container{
+  width:90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.container a:visited{
+  color:hsla(167, 98%, 34%, 0.555);
+  text-decoration:none;
+}
+.container a:hover{
+color:hsla(167, 98%, 34%, 0.555);
+text-decoration: underline;
+}
+.container .header1{
+  padding-top: 5px;
+  display:flex;
+
+}
+.container .header1 .logo{
+  margin-top:2px;
+}
+.container .header1 .non-logo{
+margin-left:45%;
+}
+.container .header1 .non-logo .insidenon-logo{
+  display:flex;
+  margin-left:4%;
+  justify-content: space-around;
+  width:30%;
+  padding-top: 20px;
+}
+.container .header1 .non-logo .insidenon-logo .homepage a:link{
+  text-decoration: none;
+  color:hsla(167, 98%, 34%, 0.555);
+  font-size: 12px;
+  border-right:2px solid hsla(167, 98%, 34%, 0.555);
+  padding-right: 5px;
+  padding-left: 2px;
+}
+.container .header1 .non-logo .insidenon-logo .webmail a:link{
+  text-decoration: none;
+  color:hsla(167, 98%, 34%, 0.555);
+  font-size: 12px;
+  border-right:2px solid hsla(167, 98%, 34%, 0.555);
+  padding-right: 5px;
+  padding-left: 2px;
+}
+.container .header1 .non-logo .insidenon-logo .contact a:link{
+  text-decoration: none;
+  color:hsla(167, 98%, 34%, 0.555);
+  font-size: 12px;
+  padding-right: 5px;
+  padding-left: 2px;
+}
+.header2 {
+  width:100%;
+  height:45px;
+  background-color: rgba(27, 153, 84, 0.541);
+  border:1px solid transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.header2 .insideheader2 {
+width:90%;
+display:flex;
+justify-content: space-around;
+margin:1% 4%;
+}
+.header2 .insideheader2 a{
+  font-size:11px;
+}
+.header2 .insideheader2 a:link{
+  text-decoration: none;
+}
+.header2 .insideheader2 a:visited{
+  color:white;
+  text-decoration:none;
+}
+.header2 .insideheader2 a:hover{
+  color:rgba(27, 153, 84, 0.541);
+  text-decoration:underline;
+}
+.container .content {
+  width:100%;
+  background-color:white;
+  height:170vh;
+}
+.container .content .insidecontent{
+  width:100%;
+  height:96%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container .content .section1{
+width: 25%;
+float: left;
+}
+.container .content .section1 .group1{
+  border:2px solid rgb(211, 208, 208);
+  border-radius: 5px;
+}
+.container .content .section1 .group1 .insidegroup1{
+  font-size: 11px;
+width:80%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.container .content .section1 .group1 .insidegroup1 .group1header{
+text-align: center;
+color:#69c469;
+font-size: 13px;
+padding-top: 4px;
+margin-top:5px;
+}
+.container .content .section1 .group1 .insidegroup1 input{
+width:100px;
+ height:11px;
+ margin-top:5px;
+}
+.container .content .section1 .group1 .insidegroup1 button{
+  margin-left:35%;
+  margin-right:30%;
+  margin-top:5px;
+}
+.container .content .section1 .group2{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group2 .group2header{
+background-color: rgba(211, 208, 208, 0.193);
+border-bottom: 2px solid #d3d0d0f5;;
+height:30px;
+}
+.container .content .section1 .group2 .group2header .insidegroup2header{
+  font-size: 4.5px;
+  padding:1px;
+  display:flex;
+  height:15px;
+  padding-top: 5px;
+  padding-bottom:7px;
+
+}
+.container .content .section1 .group2 .group2header .insidegroup2header .icon{
+  margin-bottom:4px;
+  margin-left:90px;
+}
+.container .content .section1 .group2 .group2content{
+height:50px;
+}
+.container .content .section1 .group2 .group2content .insidecontent{
+height:25px;;
+margin-top: 13px;
+margin-bottom: 12px;
+display:flex;
+}
+.container .content .section1 .group3{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group3 .group3header{
+background-color: rgba(211, 208, 208, 0.193);
+border-bottom: 2px solid #d3d0d0f5;;
+height:30px;
+}
+.container .content .section1 .group3 .group3header .insidegroup3header{
+  font-size: 4.5px;
+  padding:1px;
+  display:flex;
+  height:15px;
+  padding-top: 5px;
+  padding-bottom:7px;
+
+}
+.container .content .section1 .group3 .group3header .insidegroup3header .icon{
+  margin-bottom:4px;
+  margin-left:90px;
+}
+.container .content .section1 .group3 .group3content{
+height:50px;
+}
+.container .content .section1 .group3 .group3content .insidecontent{
+height:25px;;
+margin-top: 13px;
+margin-bottom: 12px;
+display:flex;
+}
+.container .content .section1 .group4{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group4 .group4header{
+background-color: rgba(211, 208, 208, 0.193);
+border-bottom: 2px solid #d3d0d0f5;;
+height:30px;
+}
+.container .content .section1 .group4 .group4header .insidegroup4header{
+  font-size: 4.5px;
+  padding:1px;
+  display:flex;
+  height:15px;
+  padding-top: 5px;
+  padding-bottom:7px;
+}
+.container .content .section1 .group5{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group5 .group5header{
+background-color: rgba(194, 6, 6);
+border-bottom: 2px solid transparent;
+border: 1px solid transparent;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.container .content .section1 .group5 .group5header .insidegroup5header{
+  font-size: 4.5px;
+  padding:1px;
+  height:15px;
+  padding-top: 5px;
+  padding-bottom:7px;
+  color:white;
+}
+.container .content .section1 .group5 .group5content{
+height:100px;
+}
+.container .content .section1 .group5 .group5content .insidecontent{
+height:100px;
+margin-top: 13px;
+margin-bottom: 12px;
+color:rgb(127, 7, 4);
+font-size:13px; 
+}
+.container .content .section1 .group6{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group7{
+  border:2px solid #d3d0d0f5;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container .content .section1 .group8{
+  border:2px solid transparent;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.container.content .section2{
+  float:right;
+  margin-left: 4px;
+}
+.container .content .section2.section2header{
+  color:#67c98de1;
+  width:97%;
+  padding:4px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.container .content .section2 .section2header .mainarticle{
+padding: 5px;
+width:90%;
+display: flex;
+justify-content: space-around;
+margin-bottom: 10px;
+
+} 
+.container .content .section2 .section2header.mainarticle .row1{
+margin-top:15px;
+
+}
+.container .content .section2 .section2header.mainarticle .page{
+  width:77%;
+}
+
+.container .content .section2 .mainarticle .page .insidepage{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom:3px solid rgb(223, 219, 219);
+}
+.container .content .section2 .mainarticle .page .insidepage.row2{
+width:49%;
+font-size: 11px;
+}
+.container .content .section2 .mainarticle .page .insidepage .row3{
+  width:49%;
+  font-size: 11px;
+}
+.container .content .section2 .mainarticle .page .footer a:link{
+  color:#519951;
+  font-size: 11px;
+  text-decoration: none;
+}
+.container .content .section2 .mainarticle .page .footer a:hover{
+  text-decoration: underline;
+}
+.container .content .section2.row4 .header{
+  width:100%;
+}
+.container .content .section3{
+  width:24%;
+  float:right;
+  margin-left:4px;
+}
+.container .content .section3 .insidesection3{
+  width:97%;
+  padding:8px 4px;
+}
+.container .content .section3 .part1{
+
+}
+.container .content .section3 .part1 .part1header{
+  
+  }
+  .container .content .section3 .part1 .part1header .insidepart1header{
+    text-align: center;
+    padding:4px 1px;
+    height:5px;
+  
+  }
+  .container .content .section3 .part1 .part1content{
+  
+  }
+  .container .content .section3 .part1 .part1content .insidepart1content{
+  color:rgb(66, 148, 63);
+  font-size: 12px;
+  }
+  .container .content .section3 .part2 .part2content .insidepart2content a:link{
+    text-decoration: none;
+    color:#00cc99;
+  }
+  .container .content .section3 .part2 .part2content .insidepart2content a:hover{
+    text-decoration: underline;
+  }
+  .container .content .section3 .part3 .part3content .insidepart3content{
+    color:rgb(66, 148, 63);
+    font-size: 12px;
+    }
+    .container .content .section3 .part3 .part3content .insidepart3content a:link{
+      text-decoration: none;
+      color:#00cc99;
+    }
+    .container .content .section3 .part3 .part3content .insidepart3content a:hover{
+      text-decoration: underline;
+    }

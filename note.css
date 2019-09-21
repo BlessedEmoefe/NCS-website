@@ -1,0 +1,41 @@
+.mainarticle{
+  padding: 10px;
+  width:90%;
+  display: flex;
+  
+  } 
+.mainarticle .row1{
+  width: 25%;
+  }
+  .mainarticle .page {
+
+  }
+  .mainarticle .page .insidepage{
+    display: flex;
+    width:74%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom:3px solid rgb(223, 219, 219);
+  }
+  .mainarticle .page .insidepage.row2{
+  width:49%;
+  font-size: 11px;
+  }
+  .mainarticle .page .insidepage .row3{
+    width:49%;
+    font-size: 11px;
+  }
+  .mainarticle .page .footer a:link{
+    color:#519951;
+    font-size: 11px;
+    text-decoration: none;
+  }
+  .mainarticle .page .footer a:hover{
+    text-decoration: underline;
+  }
+  .mainarticle .row4{
+
+  }
+  .section2.row4 .header{
+    width:100%;
+  }
